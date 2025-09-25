@@ -1,0 +1,119 @@
+/* & This will add a specific font to the entire webpage */
+* {
+    font-family: "Handlee";
+}
+
+/* & This will style the entire webpage */
+body {
+    /* ~ Colors of my VS Code Theme */
+    background-color: #393a55;
+    color: #ff9eb5;
+    margin: 0;
+    padding: 0;
+}
+
+/* & This will create a flex container */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* & This will style the header images */
+.img-header {
+    width: 230px;
+    height: 400px;
+    border: 5PX solid whitesmoke;
+    border-radius: 100%;
+}
+
+.img-header-b {
+    width: 230px;
+    height: 400px;
+    border: 5PX solid whitesmoke;
+    border-radius: 100%;
+}
+
+/* & This will style the <h1> element */
+h1 {
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    border: 5px solid whitesmoke;
+    padding:40px 2px 0px;
+    border-radius: 10%;
+    background-color: #ff9eb5;
+    color: whitesmoke;
+}
+
+/* & This will style the horizontal line dividing line to divide sections */
+.divider {
+    width: 90%;
+    /* background-color: #ff9eb5; */
+    background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
+    height: 10px;
+    border: none;
+    margin: auto;
+}
+
+/* & This will style the <h2> element */
+h2 {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* & This will style the horizontal line or dividing after each section title */
+.section-title-divider {
+    width: 20%;
+    height: 10px;
+    background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
+    border: none;
+    margin: auto;
+}
+
+/* & This will style the <li> elements */
+li {
+    list-style: circle;
+    font-size: 19px;
+}
+
+/* ~ This will change the size of the list marker -> the circle */
+li::marker {
+    font-size: 1.5em;
+}
+
+/* & This will style the images */
+.css-img {
+    width: 275px;
+    height: 170px;
+    margin: 10px;
+}
+
+/* & This will style the footer of the webpage */
+footer {
+    text-align: center;
+    bottom: 0;
+    font-size: 18px;
+    margin: auto;
+}
+
+/* & This will style the 3 classes for different colors of the rainbow */
+/* ~ This will change the color with just the english name -> shade of violet */
+#first-color {
+    color: violet;
+}
+
+/* ~ This will style the color using rgb -> shade of indigo */
+#second-color {
+    color: rgb(75, 0, 130);
+    background-color: whitesmoke;
+}
+
+/* ~ This will style the color using hexidecimal -> shade of blue */
+#third-color {
+    color: #b5dfcf;
+}

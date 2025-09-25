@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the Webpage -->
+    <title>CSS Rainbow</title>
+    <!-- & Link to the CSS Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ The space near the top of the webpage that will have information like the website logo, title of the webpage, a search bar, links to other parts of the site, and a button to sign into the webpage
+    -->
+    <header class="flex-container">
+        <!-- & Figure
+        ~ Usually a graphic, image, or a diagram
+        ~ It can also house more than one image
+        -->
+        <figure>
+            <img
+                src="img/a-women-cherry-blossom-tea.png"
+                alt="Women with cherry blossom kimono and cherry blossom tea"
+                class="img-header"
+            >
+        </figure>
+
+        <h1>CSS Rainbow</h1>
+
+        <figure>
+            <img
+                src="img/b-women-cherry-blossom-katana.png"
+                alt="Women in cherry blossom kimono with a katana"
+                class="img-header"
+            >
+        </figure>
+    </header>
+    <br>
+    <hr class="divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    ~ i.e. About how to show the various colors on the webpage
+    -->
+    <main>
+        <!-- & Sections
+        ~ This groups together pieces of similar information together
+        ~ i.e. Understand the different aspects of CSS Colors
+        -->
+        <!-- & This section will discuss what CSS Colors are -->
+        <section>
+            <br>
+            <h2>CSS Colors</h2>
+            <hr class="section-title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    When building a webpage, styling it with colors can help make it even more beautiful and unique
+                </li>
+                <li>
+                    To add color to text, use the "color" property
+                </li>
+                <li>
+                    A common way to do this in CSS is by naming them with English words:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/c-colors-syntax.png"
+                                alt="Syntax to add colors to text in CSS"
+                                class="css-img"
+                            >
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <br>
+        <hr class="divider">
+        <br>
+
+        <!-- & This section will discuss RGB colors -->
+        <section>
+            <h2>RGB</h2>
+            <hr class="section-title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    There are other ways to customize colors, such as RGB
+                </li>
+                <li>
+                    This is the most popular one.
+                </li>
+                <li>
+                    It represents the intensity of the red-ness, green-ness, and blue-ness of the color(s) that we assign to a given element
+                </li>
+                <li>
+                    The rgb() function accepts three integers ranging from 0 to 255 (0 has no intensity and 255 has maximum intensity), and is assigned to the "color" property:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/d-rgb-syntax.png"
+                                alt="Syntax for how to use RGB in CSS"
+                                class="css-img"
+                            >
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    This can be alternatively be expressed with hexidecimals (aka hexicode) that begins with a hastag (#), followed by a combination of numbers (0 - 9) and letters (a - f):
+                    <ul>
+                        <li>
+                            <img
+                                src="img/e-hexicode-syntax.png"
+                                alt="Syntax for colors using Hexicode in CSS"
+                                class="css-img"
+                            >
+                        </li>
+                        <li>
+                            The letters in hexidecimals can either be lowercase or uppercase
+                        </li>
+                        <li>
+                            Mixing cases are possible, but it is best practice is to use either all lowercase or all uppercase in hexidecimals
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <br>
+    <hr class="divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended resources
+            ~ In the <a> element -> use the following for the href attribute
+                ~ href = "/privacy"
+            ~ Also use the target attribute to open the link in a new web browser tab
+        ~ Copyright information
+    -->
+    <footer>
+        <!-- & &copy; -> This is the symbol for copyright -->
+        <p>
+            &copy; 2025 EtariaL33. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
