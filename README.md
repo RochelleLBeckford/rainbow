@@ -58,14 +58,10 @@
     -   [ ] Adds a horizontal line or dividing line across the webpage
     -   [ ] Used to separate sections or different topics on a webpage
 
-<hr>
-
 -   [ ] The &lt;main&gt; element:
     -   [ ] Is where the main information of the webpage will go
     -   [ ] The &lt;section&gt; element:
         -   [ ] This groups together pieces of similar information
-
-<hr>
 
 -   [ ]  The &lt;footer&gt; element:
     -   [ ]  This element tends to finish off the webpage as it is located at the very bottom of the webpage and is the last set of items that will be seen
