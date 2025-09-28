@@ -31,18 +31,6 @@
 
 <hr>
 
--   [ ] Pseudo-elements:
-    -   [ ] This makes it possibke to style specific parts of an element, without having to render a new HTML
-        -   [ ] The "pseudo" part just means giving CSS to a specific piece of the content.
-    -   [ ] These are a few use cases for pseudo-elements
-        -   [ ] Creating decorations to go with lables or text
-        -   [ ] Styling the first letter or first line of a paragraph
-        -   [ ] Making custome tooltips that appear as you hover your mouse over something
-        -   [ ] And even more!!!
-        -   [ ] For instance, including an emoji before or after some parapgraph text, but not including it inn HTML
-
-<hr>
-
 -   [ ] CSS Colors:
     -   [ ] Styling the webpage with coloes can help make it even more beautiful and unique
         -   [ ] To add color to text, use the color property
