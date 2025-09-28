@@ -52,7 +52,7 @@
         -   [ ] Is used for all the images on the webpage
 
 -   [ ] The &lt;br&gt; element:
-           -  [ ] Creates a new line in your code and forces whatever comes after to start on a new lin
+    -  [ ] Creates a new line in your code and forces whatever comes after to start on a new lin
 
 -   [ ] The &lt;hr&gt; element:
     -   [ ] Adds a horizontal line or dividing line across the webpage
